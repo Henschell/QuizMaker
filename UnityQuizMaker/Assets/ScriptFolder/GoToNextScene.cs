@@ -8,6 +8,6 @@ public class GoToNextScene : MonoBehaviour {
 
     public void LoadLevel()
     {
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Quizmaker");
     }
 }
