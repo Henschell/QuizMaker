@@ -5,7 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: 
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/LogoScene.unity
+    guid: f28b9fdbae6fbf448b10ad07b6a64e18
+  - enabled: 1
+    path: Assets/Scenes/Quizmaker.unity
+    guid: 022185fa34a27074cba67dd3b0cc42eb
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 2988e385291448c4ca0ea547d2455cf3
