@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 58891143}
   - component: {fileID: 58891142}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text (Text need Update)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -470,6 +470,14 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1141329980395376, guid: 5a3538cf5c163d8419fec99a7aedda21, type: 2}
+      propertyPath: m_Name
+      value: 'Image '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887769225142466, guid: 5a3538cf5c163d8419fec99a7aedda21, type: 2}
+      propertyPath: m_Name
+      value: FHDW Image
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a3538cf5c163d8419fec99a7aedda21, type: 2}
