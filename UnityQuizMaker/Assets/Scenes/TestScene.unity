@@ -431,7 +431,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 120
+  m_Text: 
 --- !u!222 &604981242
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyTimer: 120
-  MyTimerText: {fileID: 0}
+  MyTimerText: {fileID: 604981241}
 --- !u!1 &817357497
 GameObject:
   m_ObjectHideFlags: 0
