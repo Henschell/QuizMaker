@@ -18,4 +18,11 @@ public class AnswerData : MonoBehaviour
     private int _answerIndex = -1;
     public int AnswerIndex { get { return _answerIndex; } }
 
+    public void UpdateData(string info, int index)
+    {
+        infoTextObject.text = info;
+        _answerIndex = index;
+
+    }
+
 }

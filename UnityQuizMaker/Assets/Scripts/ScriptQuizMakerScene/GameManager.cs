@@ -17,7 +17,11 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         LoadQuestions();
-        Display();
+        foreach (var question in Question)
+        {
+            Debug.Log(question.Info);
+        }
+        //Display();
     }
 
     public void EraseAnswers()
@@ -30,6 +34,7 @@ public class GameManager : MonoBehaviour
     {
         EraseAnswers();
         var question = GetRandomQuestion();
+
         if (events.UpdateQuestionUI != null)
         {
             events.UpdateQuestionUI(question);
