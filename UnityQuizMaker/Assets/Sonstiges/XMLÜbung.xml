@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beispiel [
+<!ELEMENT beispiel (team*)>
+<!ELEMENT team (teamName,punkteInsgesamt)>
+<!ELEMENT teamName (#PCDATA)>
+<!ELEMENT punkteInsgesammt (#PCDATA)>
+]>
+	<beispiel>
+		<team>
+			<teamName>
+				SuperTeam
+			</teamName>
+			<punkteInsgesammt>
+				5
+			</punkteInsgesammt>
+		</team>
+	</beispiel>
