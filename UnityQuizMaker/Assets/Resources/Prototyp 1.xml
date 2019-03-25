@@ -3,5 +3,5 @@
 	<Fragerunde>  </Fragerunde>
 	<fragen>  </fragen>
 	<antwort> </antwort>
-	<punkte> </punkte>
+	<punkte> </punkte> <!-- Ändert sich nach jeder Runde um 1 -->
 </FHDW-Fragen>
