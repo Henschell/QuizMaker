@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?
+<!DOCTYPE Team [
+<!ELEMENT Team (Teamname*)>
+<!ELEMENT TeamMitglieder (#PCDATA)>
+<!ELEMENT TeamPunkte(#PCDATA)>
+]>
+<FHDW-Fragen>
+	<Fragen>
+		<Fragerunde> 1 </Fragerunde>
+		<Anzahlfragen> 5 </Anzahlfragen>
+		<AnzahlTeams> 25 </AnzahlTeams>
+		<Fragetext> Wer ist der Praesident der USA ? </Fragetext>		
+	</Fragen>
+	<Team>
+		<TeamName> SuperTeam </TeamName>
+		<TeamMitglieder> 8 </TeamMitglieder>
+		<TeamPunkte> X </TeamPunkte>
+	</Team>
+	<Antwort>
+		<Richtig> X </Richtig>
+		<Falsch> X </Falsch>   
+	</Antwort>
+<Runde1> "Runde 1" </Runde1>
+			<FrageText1> typ = "frage" art = "Mathe" Was ergibt 15 + 9^2 </FrageText1>
+			<FrageText2> typ = "frage" art = "Allgemeinwissen" Wer ist er Praesident der USA ? </FrageText2>
+			<FrageText3> typ = "frage" art = "Kunst" Welche Farbe kommt raus, wenn man Rot und Blau mischt ? </FrageText3>
+			<FrageText4> typ = "frage" art = "Biologie" Welche der abgebildeten Bilder stellt eine Pflanzezelle dar ? </FrageText4>
+			<FrageText5> typ = "frage" art = "Chemie" Wie wird Wasserstoff auch genannt ? </FrageText5> 
+		<AntwortRunde1>
+			<Antwort1> typ = "antwort" 96 </Antwort1>
+			<Antwort2> typ = "antwort" Donald Trump </Antwort2>
+			<Antwort3> typ = "antwort" Violett</Antwort3>
+			<Antwort4> typ = "antwort" D </Antwort4>
+			<Antwort5> typ = "antwort" Wasserstoff </Antwort5>
+		</AntwortRunde1>
+<Runde2> "Runde 2" </Runde2>
+			<FrageText1> typ = "frage" BeispielText </FrageText1> 
+			<FrageText2> typ = "frage" BeispielText </FrageText2>
+			<FrageText3> typ = "frage" BeispielText </FrageText3> 
+			<FrageText4> typ = "frage" BeispielText </FrageText4> 
+			<FrageText5> typ = "frage" BeispielText </FrageText5>
+		<AntwortRunde2>
+			<Antwort1> typ = "antwort" AntwortText </Antwort1>
+			<Antwort2> typ = "antwort" AntwortText </Antwort2>
+			<Antwort3> typ = "antwort" AntwortText </Antwort3>
+			<Antwort4> typ = "antwort" AntwortText </Antwort4>
+			<Antwort5> typ = "antwort" AntwortText </Antwort5>
+		</AntwortRunde2>
+<Runde3> "Runde 3" </Runde3>
+			<FrageText1> typ = "frage" BeispielText </FrageText1> 
+			<FrageText2> typ = "frage" BeispielText </FrageText2> 
+			<FrageText3> typ = "frage" BeispielText </FrageText3> 
+			<FrageText4> typ = "frage" BeispielText </FrageText4> 
+			<FrageText5> typ = "frage" BeispielText </FrageText5> 
+		<AntwortRunde3>
+			<Antwort1> typ = "antwort" AntwortText </Antwort1>
+			<Antwort2> typ = "antwort" AntwortText </Antwort2>
+			<Antwort3> typ = "antwort" AntwortText </Antwort3>
+			<Antwort4> typ = "antwort" AntwortText </Antwort4>
+			<Antwort5> typ = "antwort" AntwortText </Antwort5>
+		</AntwortRunde3>
+<Runde4> "Runde 4" </Runde4>
+			<FrageText1> typ = "frage" BeispielText </FrageText1>
+			<FrageText2> typ = "frage" BeispielText </FrageText2>
+			<FrageText3> typ = "frage" BeispielText </FrageText3> 
+			<FrageText4> typ = "frage" BeispielText </FrageText4> 
+			<FrageText5> typ = "frage" BeispielText </FrageText5> 
+		<AntwortRunde4>
+			<Antwort1> typ = "antwort" AntwortText </Antwort1>
+			<Antwort2> typ = "antwort" AntwortText </Antwort2>
+			<Antwort3> typ = "antwort" AntwortText </Antwort3>
+			<Antwort4> typ = "antwort" AntwortText </Antwort4>
+			<Antwort5> typ = "antwort" AntwortText </Antwort5>
+		</AntwortRunde4>
+<Runde5> "Runde 5" </Runde5>
+			<FrageText1> typ = "frage" BeispielText </FrageText1>
+			<FrageText2> typ = "frage" BeispielText </FrageText2>
+			<FrageText3> typ = "frage" BeispielText </FrageText3>
+			<FrageText4> typ = "frage" BeispielText </FrageText4>
+			<FrageText5> typ = "frage" BeispielText </FrageText5>
+		<AntwortRunde5>
+			<Antwort1> typ = "antwort" AntwortText </Antwort1>
+			<Antwort2> typ = "antwort" AntwortText </Antwort2>
+			<Antwort3> typ = "antwort" AntwortText </Antwort3>
+			<Antwort4> typ = "antwort" AntwortText </Antwort4>
+			<Antwort5> typ = "antwort" AntwortText </Antwort5>
+		</AntwortRunde5>
+</FHDW-Fragen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Team, Frage [ 
+<!ELEMENT Team (Teamname*)>
+<!ELEMENT TeamMitglieder (#PCDATA)>
+<!ELEMENT TeamPunkte (#PCDATA)>
+<!ELEMENT Frage (Frage*)>
+<!ELEMENT Antwort (#PCDATA)>
+<!ELEMENT Punkte (#PCDATA)>
+<!ELEMENT Runde (#PCDATA)>
+]>
+
+<Frage>
+<Runde> --- </Runde>
+<Antwort> --- </Antwort>
+<Punkte> --- </Punkte>
+</Frage>
+
+<Team>
+<Teamname> --- </Teamname>
+<TeamMitglieder> --- </TeamMitglieder>
+<TeamPunkte> --- </TeamPunkte>
+</Team>
