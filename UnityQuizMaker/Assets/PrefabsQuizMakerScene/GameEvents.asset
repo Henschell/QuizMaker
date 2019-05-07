@@ -8,12 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d90d2d05e7848440a1ffaa8fdc264fd, type: 3}
-  m_Name: New Question 1
+  m_Script: {fileID: 11500000, guid: c36feb39d604f0b47bba28226e2e767a, type: 3}
+  m_Name: GameEvents
   m_EditorClassIdentifier: 
-  _info: 
-  _answers: []
-  _useTimer: 0
-  _timer: 0
-  _answerType: 0
-  _addScore: 10
+  CurrentFinalScore: 0
